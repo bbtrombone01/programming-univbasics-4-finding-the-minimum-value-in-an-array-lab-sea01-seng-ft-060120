@@ -1,5 +1,5 @@
 def find_min_value(array)
-  empty = 1
+  empty = array[count]
   count = 0
   while count < array.length
     if empty > array[count]
